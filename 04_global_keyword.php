@@ -10,5 +10,12 @@
   add();
   echo $z;
   echo "<br>";
-  echo "x = $x, y = $y, z = $z";
+  echo "x = $x, y = $y, z = $z <br>";
+
+  echo "<hr>";
+
+  echo $GLOBALS['x']; // Cara lain untuk mengakses variabel global
+  echo'<br>';
+  echo $GLOBALS['y'] . "<br>";
+  echo $GLOBALS['z'];
 ?>
